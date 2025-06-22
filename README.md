@@ -160,5 +160,3 @@ You have successfully hosted a static website on AWS S3! You can now share your 
 - [AWS Free Tier](https://aws.amazon.com/free/)
 
 ---
-
-<!-- To attach images, use:
