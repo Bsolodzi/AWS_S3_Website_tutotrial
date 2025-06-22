@@ -76,7 +76,7 @@ Follow the steps to finish the task
 ![Create S3 Bucket](1.png)
 
 9. In the Permissions tab, uncheck Block All Public Access and click **Save changes**
-It was vital to allow public access to the content of our bucket (website files) over the internet. 
+ > This is vital to allow public access to the content of our bucket (website files) over the internet. 
 
 ![Managing Public Access](3.png)
 
