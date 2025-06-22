@@ -7,7 +7,7 @@ Date: 2025-06-25_
 
 ## Introduction
 
-In this project, I learnt how to host a static website using Amazon S3. This documentation covers all the necessary steps, from creating an S3 bucket to configuring permissions and finally accessing the website online.
+In this project, I learnt how to host a static website using Amazon S3. This documentation covers all the necessary steps, from creating an S3 bucket to configuring permissions and finally accessing the website online. This will serve as a guideline for anyone looking to replicate this project.
 
 ---
 
@@ -62,7 +62,7 @@ In this project, I learnt how to host a static website using Amazon S3. This doc
   ```
 
 ---
-Then I followed the following steps to finish the task
+Follow the steps to finish the task
 
 ## Step 1: Create an S3 Bucket
 
@@ -73,10 +73,14 @@ Then I followed the following steps to finish the task
 5. Select a region.
 6. Leave the default settings
 8. Click **Create bucket**.
-It was vital to uncheck Block Public Access under the Permissions tab since the bucket will be hosting our website files and we will have to access them via the internet. Your configuration should look like this
+![Create S3 Bucket](1.png)
+
+9. In the Permissions tab, uncheck Block All Public Access and click **Save changes**
+It was vital to allow public access to the content of our bucket (website files) over the internet. 
+
 ![Managing Public Access](3.png)
 
-![Create S3 Bucket](1.png)
+
 
 ---
 
@@ -84,7 +88,7 @@ It was vital to uncheck Block Public Access under the Permissions tab since the 
 
 1. Open your new bucket.
 2. Click **Upload**.
-3. Add your website files i.e `index.html`& `styles.css`.
+3. Add your website files i.e. `index.html`& `styles.css`.
 4. Click **Upload**.
 
 ![Upload Files](2.png)
